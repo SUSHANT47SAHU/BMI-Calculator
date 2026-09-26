@@ -33,6 +33,10 @@ The program uses the calculated BMI to display a basic weight category.
 
 ---
 
+## 📦 Dependency Installation
+
+No external dependencies required.
+
 ## 💻 Python Code
 
 ```python
