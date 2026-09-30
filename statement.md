@@ -1,45 +1,41 @@
 # Project Statement: BMI Calculator
 
-**Author:** Sushant Sahu
-**Language:** Python 3
-
 ---
 
 ## 1. Problem Statement
 
-Body Mass Index (BMI) is a widely used screening measure that relates a person's weight to their height. Calculating it by hand means converting units, squaring the height and dividing, and then comparing the result against category ranges. This is slow and easy to get wrong, especially for people who are not comfortable with the formula.
+The Body Mass Index (BMI) is one of the common methods of screening where an individual's weight is measured relative to the height of the individual. The calculation of the body mass index manually requires unit conversion, squaring the height value, and performing divisions. This method is time-consuming and prone to errors, particularly for individuals who are unfamiliar with the formula.
 
-This project provides a simple command-line program that takes a person's height and weight, calculates their BMI automatically, and tells them which weight category the value falls into.
-
+This paper offers a simple command-line program that will calculate the BMI of an individual using the height and weight values of the individual and determine the category of weight.
 ---
 
 ## 2. Scope of the Project
 
 **In scope**
 
-- Accepting height in centimeters and weight in kilograms from the user
-- Converting height from centimeters to meters
-- Calculating BMI using the formula `BMI = weight (kg) / height (m)²`
-- Displaying the BMI rounded to 2 decimal places
-- Classifying the BMI into a category (severely underweight, underweight, healthy, overweight, severely overweight)
-- Showing a message when the calculated value is not valid
-- Running with Python 3 alone, with no external libraries
+- Input of Height in Centimeter and Weight in Kilogram from User
+- Conversion of Height from Centimeter to Meter
+- Calculation of BMI according to the formula `BMI = weight (kg)/height (m)2` 
+- Display of BMI in 2 Decimal Places
+- Categorization of the BMI (Severely Underweight, Underweight, Normal, Overweight, Severely Overweight)
+- Display of Message when the calculated Value is not Valid
+- Execution of the Code with only Python 3 without any Library
 
 **Out of scope**
 
-- Medical diagnosis or health advice (BMI is only a general screening indicator)
-- Graphical or web interface
-- Storing user data or tracking BMI history
-- Age-, gender-, or muscle-mass-specific adjustments
-- Support for imperial units (feet, inches, pounds)
+- Health diagnosis (BMI is just an indicative tool)
+- Graphic/Website Interface
+- User data storage or storing the history of BMI
+- Adjustments based on age, gender, or muscle mass
+- Imperial system (feet, inches, pounds)
 
 ---
 
 ## 3. Target Users
 
-- Beginners and students learning Python who want to see input, arithmetic, and conditional logic in a practical program
-- Anyone who wants a quick way to check their BMI without doing the calculation manually
-- Instructors and reviewers looking for a small, readable example of a Python program
+- Novices and students of Python who need to witness the application of input statements, mathematical operations, and conditional operators
+- People seeking a fast method of calculating their BMI without performing manual calculations
+- Teachers and reviewers searching for an easy-to-understand Python program example
 
 ---
 
@@ -54,9 +50,3 @@ This project provides a simple command-line program that takes a person's height
 | Category classification | Uses `if-elif-else` logic to report the weight category |
 | Invalid value message | Prompts the user to enter valid values when the result is not positive |
 | No dependencies | Uses only built-in Python, so it runs anywhere Python 3 is installed |
-
----
-
-## 5. Disclaimer
-
-This program is for learning and general information only. BMI does not account for body composition, age, or other factors, and the result should not replace advice from a qualified healthcare professional.
